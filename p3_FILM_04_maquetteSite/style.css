@@ -1,0 +1,76 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Roboto;
+}
+
+.infoDetail {
+  background-color: #b60a0a;
+}
+.infoDetail h1, .infoDetail .subTitle {
+  color: #ffffff;
+}
+
+.infoGeneral {
+  background-color: #000000;
+}
+.infoGeneral h1, .infoGeneral h2 {
+  color: #ffffff;
+}
+
+.important {
+  background-color: #5f2785;
+  padding-top: 15px;
+}
+.important p, .important a, .important span {
+  color: #000000;
+}
+
+#home .col-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+}
+
+#theFestival, #theProgrammation, #theFilm1, #theActualites, #theActualite1, #theContact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1, h2, h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h1, h2, h3 {
+  color: #000000;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+#theContact .col-12.col-xl-6 {
+  margin-bottom: 10px;
+}
+
+.presentation {
+  top: 50px;
+  left: 50px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.btn-info {
+  background-color: #ffffff;
+}
+
+.fondButton {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

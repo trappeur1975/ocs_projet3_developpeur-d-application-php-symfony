@@ -1,0 +1,81 @@
+$colorInfoGeneral :#000000; //black;
+$colorInfoDetail :#b60a0a;	//rouge 
+$colorVirgin :#ffffff;	//blanc
+$colorImportant :#5f2785;	//violet
+
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Roboto;
+}
+
+.infoDetail {
+	background-color: $colorInfoDetail ;
+	h1, .subTitle {
+		color: $colorVirgin;
+	}
+}
+
+.infoGeneral {
+	background-color: $colorInfoGeneral;
+	h1,h2 {
+		color: $colorVirgin;
+	}
+}
+
+.important {
+	background-color: $colorImportant;
+	padding-top: 15px;
+	p, a, span{
+		color: $colorInfoGeneral;
+	}
+}
+
+// gestion des marge et des espacement
+#home .col-12{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#logo {
+	width: 70px;
+	height: 70px;
+}
+
+#theFestival, #theProgrammation, #theFilm1, #theActualites, #theActualite1, #theContact{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h1, h2, h3{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h1, h2, h3 {
+	color: $colorInfoGeneral;
+}
+
+.card {
+	margin-bottom: 10px;
+}
+
+#theContact .col-12.col-xl-6 {
+	margin-bottom: 10px;
+}
+
+.presentation{
+	top: 50px;
+	left: 50px;
+	padding: 10px;
+	background-color: $colorVirgin;;
+}
+
+.btn-info {
+	background-color: $colorVirgin;
+}
+
+.fondButton {
+	background-color: red;
+}
